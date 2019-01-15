@@ -1,0 +1,24 @@
+[submodule "l10n-spain"]
+	path = l10n-spain
+	url = https://github.com/OCA/l10n-spain.git
+	branch = 11.0
+[submodule "server-tools"]
+	path = server-tools
+	url = https://github.com/OCA/server-tools.git
+	branch = 11.0
+[submodule "mis-builder"]
+	path = mis-builder
+	url = https://github.com/OCA/mis-builder.git
+	branch = 11.0
+[submodule "community-data-files"]
+	path = community-data-files
+	url = https://github.com/OCA/community-data-files.git
+	branch = 11.0
+[submodule "social"]
+	path = social
+	url = https://github.com/OCA/social.git
+	branch = 11.0
+[submodule "web"]
+	path = web
+	url = https://github.com/OCA/web.git
+	branch = 11.0
