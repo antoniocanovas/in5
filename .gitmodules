@@ -38,3 +38,15 @@
 	path = account-financial-tools
 	url = https://github.com/oca/account-financial-tools.git
 	branch = 11.0
+[submodule "partner-contact"]
+	path = partner-contact
+	url = https://github.com/oca/partner-contact.git
+	branch = 11.0
+[submodule "account-payment"]
+	path = account-payment
+	url = https://github.com/oca/account-payment.git
+	branch = 11.0
+[submodule "account-invoicing"]
+	path = account-invoicing
+	url = https://github.com/oca/account-invoicing.git
+	branch = 11.0
