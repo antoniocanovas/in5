@@ -1,34 +1,17 @@
-git add .gitmodules
-git rm --cached account-financial-reporting
-rm -r account-financial-reporting
-git rm --cached account-financial-tools
-rm -r account-financial-tools
-rm -r account_invoice_merge
-git rm --cached account-invoicing
-rm -r account-invoicing
-git rm --cached account-payment
-rm -r account-payment
-git rm --cached community-data-files
-rm -r community-data-files
-git rm --cached l10n-spain
-rm -r l10n-spain
-rm -r mail_optional*
-git rm --cached mis-builder
-rm -r mis-builder
-git rm --cached partner-contact
-rm -r partner-contact
-git rm --cached reporting-engine
-rm -r reporting-engine
-git rm --cached server-tools
-rm -r server-tools
-git rm --cached server-ux
-rm -r server-ux
-git rm --cached social
-rm -r social
-git rm --cached web
-rm -r web
+git submodule add -b 12.0 https://github.com/oca/account-financial-tools
+git submodule add -b 12.0 https://github.com/oca/account-financial-reporting
+git submodule add -b 12.0 https://github.com/oca/account-invoicing
+git submodule add -b 12.0 https://github.com/oca/account-payment
+git submodule add -b 12.0 https://github.com/oca/community-data-files
+git submodule add -b 12.0 https://github.com/oca/l10n-spain
+git submodule add -b 12.0 https://github.com/oca/mis-builder
+git submodule add -b 12.0 https://github.com/oca/partner-contact
+git submodule add -b 12.0 https://github.com/oca/reporting-engine
+git submodule add -b 12.0 https://github.com/oca/server-tools
+git submodule add -b 12.0 https://github.com/oca/server-ux
+git submodule add -b 12.0 https://github.com/oca/social
+git submodule add -b 12.0 https://github.com/oca/web
 git add .
-git status 
-git commit -m "limpio"
+git status
+git commit -m "v12"
 git push
-
