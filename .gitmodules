@@ -46,7 +46,3 @@
 	path = social
 	url = https://github.com/oca/social
 	branch = 13.0
-[submodule "web"]
-	path = web
-	url = https://github.com/oca/web
-	branch = 13.0
